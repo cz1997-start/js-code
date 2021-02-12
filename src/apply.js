@@ -6,7 +6,7 @@ function myApply(context, ...args) {
   return res;
 }
 
-Function.prototype.myCall = myCall;
+Function.prototype.myApply = myApply;
 
 let obj = {
   name: "tom",
